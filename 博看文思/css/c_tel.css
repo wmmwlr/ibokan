@@ -1,0 +1,318 @@
+.c_outer{
+	width: 100%;
+	height: 100%;
+	background: url(../images/c_background.png);
+}
+.c_header{
+	width: 100%;
+	height: 114px;
+	background:url(../images/c_header1.png);
+}
+.c_im{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.c_body_1{
+	width: 980px;
+	height: 4041px;
+	margin: 0 auto;
+/*	border: 1px solid #ccc;*/
+	position: relative;
+}
+.c_lable1{
+	margin-left: 10px;
+	margin-top: 37px;
+	height: 31px;
+	padding-top: 5px;
+	padding-left: 58px;
+	display: inline-block;
+	font: normal normal 14px microsoft Yahei;
+	background: url(../images/all.png) -10px -321px no-repeat;
+}
+.c_lable1 i{
+	font: normal normal 30px microsoft Yahei; 
+	line-height: 19px;
+	color: #fff;
+}
+.c_teacherimg{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 21px 10px 0 20px;
+	height: 97px;
+/*	background: #343131;*/
+}
+
+.c_teacherimg li{
+	float: left;
+	margin: 0 29px;
+}
+.c_teacherimgL{
+	display: inline-block;
+	float: left;
+	margin-right: 27px;
+	margin-top: 34px;
+	width: 39px;
+	height: 39px;
+	background: url(../images/all.png) -332px -20px no-repeat;
+}
+.c_teacherimgR{
+	display: inline-block;
+	float: left;
+	margin-left: 27px;
+	margin-top: 34px;
+	width: 39px;
+	height: 39px;
+	background: url(../images/all.png) -332px -64px no-repeat;
+}
+.c_teacherimg ul{
+	float: left;
+	color: #fff;
+}
+.c_teacherimg ul li h1{
+	margin-top: 20px;
+	text-align: center;
+	font: 18px;
+}
+.c_teacherimg ul li h2{
+	margin-top: 3px;
+	font: 14px;
+}
+.c_teacherIntro{
+	margin:45px 0 0 50px;
+	color: #e1e0e0;
+}
+.c_teacherIntro dl dt{
+	float: left;
+	padding-top: 13px;
+	width: 263px;
+	height: 458px;
+/*	overflow: hidden;*/
+}
+.c_teacherIntro dl dt img{
+	width: 233px;
+	height: 556px;
+}
+.c_teacherIntro dl dd{
+	float: left;
+	width: 634px;
+	height: 584px;
+}
+.c_teacherjob{
+	background:url(../images/c_time.png) no-repeat  ;
+	padding-top: 47px;
+/*	margin-left: 20px;*/
+	width: 630px;
+	height: 436px;
+
+}
+.c_teacherName ul{
+	float: left;
+	padding-left: 122px;
+	width: 260px;
+	height: 50px;
+	overflow: hidden;
+}
+.c_teacherNameTurn{
+	float: right;
+}
+.c_teacherName ul li{
+	padding: 3px 0 0;
+	width: 150px;
+	height: 21px;
+	overflow: hidden;
+	font: 18px microsoft Yahei;
+}
+.c_teacherjob p{
+	padding: 0 49px 33px 0;
+	margin-left: 124px;
+	line-height: 26px;
+	text-align: left;
+	width: 502px;
+	height: 104px;
+	overflow: hidden;
+	font: 16px microsoft Yahei;
+	color: #e1e0e0;
+}
+.c_teacherjob a{
+	display: block;
+	color: #088be0;
+	padding-bottom: 12px;
+	margin-left: 124px;
+}
+.c_teacherjob h1{
+	margin-top: 15px;
+	padding-left: 40px;
+	margin-left: 84px;
+	background: url(../images/all.png) -245px -400px no-repeat;
+	width: 78px;
+	font: 18px/14px microsoft Yahei;
+}
+.c_teacherjob h2{
+	margin-top: 150px;
+	margin-left: 84px;
+	padding-left: 40px;
+	background: url(../images/all.png) -245px -400px no-repeat;
+	width: 78px;
+	font: 18px/14px microsoft Yahei;
+}
+.c_teacherjob h3{
+	margin-top: 15px;
+	padding-left: 124px;
+	width: 278px;
+	font: 16px microsoft Yahei;
+}
+.c_teacherjob dl dt,.c_teacherjob dl dt img{
+	width: 82px;
+	height: 95px;
+
+}
+.c_teacherjob dl dt,.e_teacherjob dl dd{
+	float: left;
+}
+.c_teacherjob dl dd{
+	width: 80px;
+	height: 24px;
+	padding: 50px 0 0 22px;
+	font: 14px microsoft Yahei;
+}
+.c_teacherjob dl{
+	float: left;
+	margin-top: 12px;
+/*	margin-right: 60px;*/
+}
+.c_teacherjob .c_eat1{
+	margin-left: 124px;
+	margin-right: 60px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+.c_teacherIntro_r{
+	margin:45px 0 0 50px;
+	color: #e1e0e0;
+}
+.c_teacherIntro_r dl dt{
+	float: right;
+	padding-top: 13px;
+	width: 263px;
+	height: 458px;
+/*	overflow: hidden;*/
+}
+.c_teacherIntro_r dl dt img{
+	float: right;
+	width: 233px;
+	height: 556px;
+}
+.c_teacherIntro_r dl dd{
+	float: right;
+	width: 634px;
+	height: 584px;
+}
+.c_teacherjob{
+	background:url(../images/c_time.png) no-repeat  ;
+	padding-top: 47px;
+/*	margin-left: 20px;*/
+	width: 630px;
+	height: 436px;
+
+}
+.c_teacherName ul{
+	float: left;
+	padding-left: 122px;
+	width: 260px;
+	height: 50px;
+	overflow: hidden;
+}
+.c_teacherNameTurn{
+	float: right;
+}
+.c_teacherName ul li{
+	padding: 3px 0 0;
+	width: 150px;
+	height: 21px;
+	overflow: hidden;
+	font: 18px microsoft Yahei;
+}
+.c_teacherjob p{
+	padding: 0 49px 33px 0;
+	margin-left: 124px;
+	line-height: 26px;
+	text-align: left;
+	width: 502px;
+	height: 104px;
+	overflow: hidden;
+	font: 16px microsoft Yahei;
+	color: #e1e0e0;
+}
+.c_teacherjob a{
+	display: block;
+	color: #088be0;
+	padding-bottom: 12px;
+	margin-left: 124px;
+}
+.c_teacherjob h1{
+	margin-top: 15px;
+	padding-left: 40px;
+	margin-left: 84px;
+	background: url(../images/all.png) -245px -400px no-repeat;
+	width: 78px;
+	font: 18px/14px microsoft Yahei;
+}
+.c_teacherjob h2{
+	margin-top: 150px;
+	margin-left: 84px;
+	padding-left: 40px;
+	background: url(../images/all.png) -245px -400px no-repeat;
+	width: 78px;
+	font: 18px/14px microsoft Yahei;
+}
+.c_teacherjob h3{
+	margin-top: 15px;
+	padding-left: 124px;
+	width: 278px;
+	font: 16px microsoft Yahei;
+}
+.c_teacherjob dl dt,.c_teacherjob dl dt img{
+	width: 82px;
+	height: 95px;
+
+}
+.c_teacherjob dl dt,.e_teacherjob dl dd{
+	float: left;
+}
+.c_teacherjob dl dd{
+	width: 80px;
+	height: 24px;
+	padding: 50px 0 0 22px;
+	font: 14px microsoft Yahei;
+}
+.c_teacherjob dl{
+	float: left;
+	margin-top: 12px;
+/*	margin-right: 60px;*/
+}
+.c_teacherjob .c_eat1{
+	margin-left: 124px;
+	margin-right: 60px;
+}
+a{
+	text-decoration: none;
+}
+/*teacherimg-roll滚动显示修改内容*/
+	.b_rollpic_outer{
+		position: relative;
+		float: left;
+		width: 815px;
+		height: 107px;
+		overflow: hidden;
+	}
+	.b_rollpic_inner{
+		position: absolute;
+		left: -163px;
+		width: 1141px;
+		height: 107px;
+	}

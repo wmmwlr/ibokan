@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>头部文件</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/e_top.css">
+	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+</head>
+<body>
+	<div class="e_header">
+		<div id="e_nav" class="e_nav clear">
+			<a href="" class="e_icon1">
+				<img src="../images/e_logo.png" title="博看文思" alt="博看文思">
+			</a>
+			<a href="" class="e_icon2 e_icon" id="e_icon2"><i>首页</i><span>首页</span></a>
+			<a href="" class="e_icon3 e_icon">HTML5课程</a>
+			<a href="" class="e_icon4 e_icon">HTML5讲师</a>
+			<a href="" class="e_icon5 e_icon">实战项目</a>
+			<a href="" class="e_icon6 e_icon">学习园地</a>
+			<a href="" class="e_icon7 e_icon">关于我们</a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#e_nav>a").hover(function(){
+			$(this).animate({left:"80px"},1000)
+		})
+	})
+</script>
+</html>

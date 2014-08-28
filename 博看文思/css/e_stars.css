@@ -1,0 +1,203 @@
+a{
+	text-decoration: none;
+	color:#D3D2D1;
+}
+.ee_header{
+	width: 100%;
+	height: 114px;
+	background: url(../images/ee_bj1.png) ;
+}
+.ee_all{
+	width: 100%;
+}
+.ee_stars{
+	margin: 0 auto;
+	width: 980px;
+}
+.ee_starsL{
+	float: left;
+	margin: 36px 19px 75px 0;
+	width: 690px;
+}
+.ee_starsLjob{
+	display: block;
+	margin:0 0 30px 20px;
+	padding:10px 0 0 63px;
+	width: 130px;
+	height: 22px;
+	background: url(../images/ehetu2.png) 0 -508px no-repeat;
+	color: #606060;
+}
+.ee_starsLjob strong{
+	padding: 0 10px;
+}
+.ee_starsL h1{
+	margin-bottom: 30px;
+	padding-bottom: 18px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #3c3c3c;
+	border-bottom: 4px solid #ffa18f;
+}
+.ee_starsL dl{
+	margin:0 0 60px 10px;
+}
+.ee_starsL dl dt{
+	float: left;
+	margin-right: 36px;
+	width: 193px;
+	height: 192px;
+}
+.ee_starsL dl dt img{
+	width: 193px;
+	height: 192px;
+}
+.ee_starsL dl dd{
+	float: left;
+	width: 436px;
+	height: 192px;
+	color: #6f6f6f;
+}
+.ee_starsL dl dd p{
+	line-height: 25px;
+}
+.ee_starsL dl dd p strong{
+	margin: 0 30px;
+}
+.ee_starsL dl dd p em{
+	margin: 0 0 0 30px;
+}
+.ee_starsLPeo{
+	width: 436px;
+	height: 28px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.ee_starsLPro{
+	width: 436px;
+	height: 28px;
+	margin-bottom: 10px;
+}
+.ee_starsLPro1{
+	width: 436px;
+	height:84px;
+}
+.ee_starsL dl dd a{
+	display: block;
+	margin-top: 12px;
+	width: 150px;
+	height: 29px;
+	background: url(../images/ehetu.png) -363px -298px no-repeat;
+}
+.ee_starsL ul{
+	padding: 20px 0 0 248px;
+	border-top: 4px solid #ffa18f;
+}
+.ee_starsL ul li{
+	float: left;
+	margin: 0 10px;
+	padding-top: 5px;
+	background: url(../images/ehetu.png) -279px -511px no-repeat;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+.ee_starsL ul .ee_starsLscrollL{
+	margin-right: 0;
+	background: url(../images/ehetu.png) -395px -490px no-repeat; 
+}
+.ee_starsL ul .ee_starsLscrollR{
+	background: url(../images/ehetu.png) -474px -484px no-repeat; 
+}
+.d_pro_right .dd_right_tit {
+	width: 250px;
+	height: 45px;
+	margin: 95px 0 0 0;
+	border-bottom: 4px solid #ffa18f;
+}
+/*全体使用*/
+	.fl{float: left;}
+	.fr{float: right;}
+	.pic{/*7_1引入*/
+		width: 31px;
+		height: 31px;
+		background:url(../images/7_1.png) no-repeat;
+	}
+	.b_picm{margin-top: 6px;margin-left: 20px;margin-right: 9px;}/*pic—margin,在header、footer中有用到*/
+/*居中写内容的BOX——全体使用*/
+	#b_box{
+		margin: 0px auto;
+		width: 980px;
+		font-size: 14px;
+		font-family: 微软雅黑;
+	}
+/*HTML尾部——全体使用*/
+	#b_footer{
+		position: relative;
+		width: 100%;
+		height: 380px;
+		background: #1e1c1c;
+		color: #f4f4f4;
+	}
+	#b_footer li{
+		float: left;
+		font: 13px/32px 微软雅黑;
+	}
+	/*top图标*/
+		#b_footer .img{
+			position: absolute;
+			z-index: 50;
+			top: -43px;
+			width: 87px;
+			height: 87px;
+			background: url(../images/7_1.png) no-repeat;
+			background-position: -18px -93px;
+		}
+	#b_footer .friend{
+		width: 275px;
+		height: 200px;
+		margin-top: 80px;
+	}
+	.friend h1{
+		font: 20px/32px 微软雅黑; 
+	}
+	.friend li{
+		width: 137px;
+		height: 25px;
+	}
+	/*bokan链接图标*/
+		#b_footer .pic2b{margin-left: 20px;background-position: -187px -114px;}
+		#b_footer .pic3b{margin-left: 20px;background-position: -238px -114px;}
+		#b_footer .pic5b{margin-left: 20px;background-position: -340px -114px;}
+		#b_footer .pic6b{margin-left: 20px;background-position: -391px -114px;}
+	#b_footer .bokan{
+		width: 620px;
+		height: 200px;
+		margin-top: 80px;
+		margin-left: 76px;
+	}
+	.title_b .title_t{
+		margin-top: 6px;
+		width: 90px;
+		font: 15px/40px 微软雅黑;
+	}
+	#b_footer .bokan_look li{
+		width: 90px;
+		height: 25px;
+		margin-left: 60px;
+	}
+	.copyright{
+		margin-top: 20px;
+		width: 980px;
+		height: 32px;
+		background: url(../images/copyright.png) no-repeat;
+	}
+	#b_footer p{
+		margin: -16px auto;
+		width: 221px;
+		height: 32px;
+		font: 13px/32px 微软雅黑; 
+		color: #a3a3a3;
+	}

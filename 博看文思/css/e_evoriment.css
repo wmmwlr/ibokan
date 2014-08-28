@@ -1,0 +1,71 @@
+.eee_header{
+	width: 100%;
+	height: 114px;
+	background: url(../images/ee_bj1.png) ;
+}
+.ee_starsLEvo{
+	width: 163px;
+}
+.eee_starsL{
+	margin-bottom: 0;
+	width: 980px;
+	height: 141px;
+	float: none;
+}
+.eee_scroll_Img{
+	margin: 0 10px 75px 0;
+	position: relative;
+}
+.e_aboutUsimgScroll {
+	width: 960px;
+	height: 665px;
+}
+.e_aboutUsimgScroll, .e_aboutUsimgScroll .slide li img {
+	width: 960px;
+}
+.e_aboutUsimgScroll .slide li {
+	float: left;
+	width: 960px;
+	height: 354px;
+}
+.eee_scrollImgALL li{ float: left; }
+.eee_scrollImgALL,.eee_scrollImgALL img{
+	width: 960px;
+	height: 352px;
+	overflow: hidden;
+}
+.eee_scrollImg li,.eee_scrollImg li img{
+	width: 233px;
+	height: 157px;
+	overflow: hidden;
+}
+.eee_scrollImg li{
+	float: left;
+	margin:10px 9px 0 0;
+}
+.eee_scrollImg .eee_scrollImgNo{
+	margin-right: 0;
+}
+.eee_scroll{
+	width: 980px;
+}
+.eee_scroll ul{
+	padding-left: 350px;
+}
+/*.eee_btn1{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/ehetu.png) -314px -556px no-repeat;
+	position: absolute;
+	top: 170px;
+}
+.eee_btn2{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/ehetu.png) -382px -556px no-repeat;
+	position: absolute;
+	top: 170px;
+	left: 921px;
+}*/

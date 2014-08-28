@@ -1,0 +1,69 @@
+*{
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: #D3D2D1;
+}
+.e_header{
+	width: 100%;
+	height: 114px;
+}
+.e_nav{
+	margin: 0 auto;
+	padding: 36px 0px 38px 10px;
+	width: 980px;
+	height: 40px;
+	/*position: relative;*/
+}
+.e_nav a{
+	float:left;
+	/*position: absolute;*/
+	display: inline-block;
+	/*height: 300px;*/
+	position: relative;
+	width: 
+}
+.e_nav a span{
+	position: absolute;
+	left: 40px;
+}
+.e_icon1{
+	width: 82px;
+    height: 42px;
+    padding-right: 99px;
+}
+.e_icon1 img{
+	width: 105px;
+	height: 42px;
+}
+.e_icon{
+	margin-right: 20px;
+	padding:12px 0 0 43px;
+	height: 35px;
+}
+.e_icon2{
+	width: 38px;
+	background: url(../images/ehetu.png) 0px 0px no-repeat;
+}
+.e_icon3{
+	width: 86px;
+	background: url(../images/ehetu.png) 0px -43px no-repeat;
+}
+.e_icon4{
+	width: 86px;
+	background: url(../images/ehetu.png) 0px -86px no-repeat;
+}
+.e_icon5{
+	width: 76px;
+	background: url(../images/ehetu.png) 0px -134px no-repeat;
+}
+.e_icon6{
+	width: 76px;
+	background: url(../images/ehetu.png) 0px -189px no-repeat;
+}
+.e_icon7{
+	margin-right: 0;
+	width: 76px;
+	background: url(../images/ehetu.png) 0px -240px no-repeat;
+}

@@ -1,0 +1,89 @@
+/*全体使用*/
+	.fl{float: left;}
+	.fr{float: right;}
+	.b_pic{/*7_1引入*/
+		width: 31px;
+		height: 31px;
+		background:url(../images/7_1.png) no-repeat;
+	}
+	.b_picm{margin-top: 6px;margin-left: 20px;margin-right: 9px;}/*pic—margin,在header、footer中有用到*/
+/*居中写内容的BOX——全体使用*/
+	#b_box{
+		margin: 0px auto;
+		width: 980px;
+		font-size: 14px;
+		font-family: 微软雅黑;
+	}
+/*HTML尾部——全体使用*/
+	#b_footer{
+		position: relative;
+		width: 100%;
+		height: 380px;
+		background: #1e1c1c;
+		color: #f4f4f4;
+	}
+	#b_footer li{
+		float: left;
+		font: 13px/32px 微软雅黑;
+	}
+	/*top图标*/
+		#b_footer .img{
+			position: absolute;
+			z-index: 50;
+			top: -43px;
+			width: 87px;
+			height: 87px;
+			background: url(../images/7_1.png) no-repeat;
+			background-position: -18px -93px;
+		}
+	#b_footer .b_friend{
+		width: 275px;
+		height: 200px;
+		margin-top: 80px;
+	}
+	.b_friend h1{
+		font: 20px/32px 微软雅黑; 
+	}
+	.b_friend li{
+		width: 137px;
+		height: 25px;
+	}
+	/*bokan链接图标*/
+		#b_footer .b_pic2b{margin-left: 20px;background-position: -187px -114px;}
+		#b_footer .b_pic3b{margin-left: 20px;background-position: -238px -114px;}
+		#b_footer .b_pic5b{margin-left: 20px;background-position: -340px -114px;}
+		#b_footer .b_pic6b{margin-left: 20px;background-position: -391px -114px;}
+	/*使用hover替换原类*/
+		#b_footer .b_pic2b_c{margin-left: 20px;background-position: -187px -62px;}
+		#b_footer .b_pic3b_c{margin-left: 20px;background-position: -238px -62px;}
+		#b_footer .b_pic5b_c{margin-left: 20px;background-position: -340px -62px;}
+		#b_footer .b_pic6b_c{margin-left: 20px;background-position: -391px -62px;}
+	#b_footer .b_bokan{
+		width: 620px;
+		height: 200px;
+		margin-top: 80px;
+		margin-left: 76px;
+	}
+	.b_title_b .b_title_t{
+		margin-top: 6px;
+		width: 90px;
+		font: 15px/40px 微软雅黑;
+	}
+	#b_footer .b_bokan_look li{
+		width: 90px;
+		height: 25px;
+		margin-left: 60px;
+	}
+	.b_copyright{
+		margin-top: 20px;
+		width: 980px;
+		height: 32px;
+		background: url(../images/copyright.png) no-repeat;
+	}
+	#b_footer p{
+		margin: -16px auto;
+		width: 221px;
+		height: 32px;
+		font: 13px/32px 微软雅黑; 
+		color: #a3a3a3;
+	}

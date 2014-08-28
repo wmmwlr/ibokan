@@ -1,0 +1,112 @@
+.aa_blue{
+	background: #272e3a;
+}
+.a_aboutUs {
+width: 100%;
+}
+.a_entire{
+	width: 100%;
+	margin: 0px auto;
+	background-color:#272e3a; 
+	color: white;
+	text-align: center;
+	font-family: 微软雅黑;
+	height: 2970;
+}
+#a_mainteacher{
+	width: 990px;
+	margin: 0px auto;
+}
+.a_coursetitle{
+	text-align: left;
+	font-size: 14px;
+	line-height: 31px;
+	background: url(../images/a_con.png) no-repeat;
+	background-position: 0px -66px;
+	width: 85px;
+	padding-left: 40px;
+	margin-left: 20px;
+}
+#a_trainee{
+	width: 970px;
+	height: 1000px;
+	margin-left: 53px;
+}
+.a_trainee1{
+	width: 297px;
+	height: 351px;
+	text-align: center;
+	padding-right: 24px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	font: 19px/59px 微软雅黑;
+}
+.a_trainee1 img{
+	width: 297px;
+	height: 297px;
+}
+h1{
+	font:bold 46px 微软雅黑;
+	text-align: center;
+}
+.f_l{
+	float: left;
+}
+.a_pic{
+	width: 31px;
+	height: 31px;
+	background:url(../images/a_1.png) no-repeat;
+}
+.a_activity{
+	width: 980px;
+	height: 428px;
+	margin-left: 24px;
+}
+.a_li4{
+	margin-top: 18px;
+	margin-left: 65px;
+	width: 252px;
+	height: 360px;
+}
+.a_cli4{
+	margin-left: 39px;
+}
+.a_activity h5{
+	margin-top: 34px;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.a_activity p{
+	line-height: 21px;
+	font-size: 16px;
+}
+.a_activity li{
+	float: left;
+}
+.a_activity img{
+	border: 11px solid #20212d;
+}
+.a_morepink{
+	margin-top: 35px;
+	margin-left: 92px;
+	width: 68px;
+	height: 30px;
+	background-position: -27px -255px;
+	}
+.a_course0{
+	margin: 10px 85px 30px 85px;
+	font:bold 46px 微软雅黑;
+	text-align: center;
+}
+.a_message1{
+	margin-left: 60px;
+}
+.a_message{
+	height: 160px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: left;
+	float: left;
+	margin-left: 15px;
+	margin-right: 95px;
+}

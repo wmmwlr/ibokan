@@ -1,0 +1,853 @@
+*{
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	color:#F60;
+}
+.actGotop{position:fixed;z-index: 1000;_position:absolute;bottom: 20px;
+right: -3px;width:150px;height:195px;display:none;}
+.actGotop a,.actGotop a:link{width:150px;height:195px;display:inline-block;background:url(../images/blog7year_gotop.png) no-repeat;_background:url(../images/blog7year_gotop.gif) no-repeat;outline:none;}
+.actGotop a:hover{background:url(../images/blog7year_gotopd.gif) no-repeat;outline:none;}
+.e_header{
+	width: 100%;
+	height: 114px;
+	overflow: hidden;
+	background: url(../images/e_topbj.png) ;
+}
+.e_nav{
+	position: relative;
+	margin: 0 auto;
+	padding: 36px 0px 38px 10px;
+	width: 980px;
+	height: 40px;
+	z-index: 1000;	
+}
+.e_tom{
+	position: absolute;
+	top:31px;
+	left: 117px;
+	z-index: -1;
+}
+.e_tom img{
+	width: 116px;
+}
+.e_nav a{
+	float:left;
+}
+.e_icon_1{
+	width: 35px;
+    height: 42px;
+    padding-right: 99px;
+}
+.e_icon_1 img{
+	width: 105px;
+	height: 42px;
+}
+.e_icon{
+	margin-right: 8px;
+	padding:12px 0 0 43px;
+	_padding:12px 0 0 38px;
+	height: 35px;
+}
+.e_icon2{
+	width: 38px;
+	background: url(../images/all.png) -8px -16px no-repeat;
+}
+.e_icon2_c{
+	width: 38px;
+	background: url(../images/all.png) -7px -547px no-repeat;
+}
+.e_icon3{
+	width: 89px;
+	background: url(../images/ehetu.png) 0px -43px no-repeat;
+}
+.e_icon3_c{
+	width: 89px;
+	background: url(../images/all.png) -8px -612px no-repeat;
+}
+.e_icon4{
+	width: 89px;
+	background: url(../images/ehetu.png) 0px -86px no-repeat;
+}
+.e_icon4_c{
+	width: 89px;
+	background: url(../images/all.png) -9px -677px no-repeat;
+}
+.e_icon5{
+	width: 76px;
+	background: url(../images/ehetu.png) 0px -134px no-repeat;
+}
+.e_icon5_c{
+	width: 76px;
+	background: url(../images/all.png) -6px -315px no-repeat;
+}
+.e_icon8{
+	width: 38px;
+	background: url(../images/ehetu.png) 0px -134px no-repeat;
+}
+.e_icon8_c{
+	width: 38px;
+	background: url(../images/all.png) -6px -315px no-repeat;
+}
+.e_icon6{
+	width: 76px;
+	background: url(../images/ehetu.png) 0px -189px no-repeat;
+}
+.e_icon6_c{
+	width: 76px;
+	background: url(../images/all.png) -7px -877px no-repeat;
+}
+.e_icon7{
+	margin-right: 0;
+	width: 76px;
+	background: url(../images/ehetu.png) 0px -240px no-repeat;
+}
+.e_icon7_c{
+	margin-right: 0;
+	width: 76px;
+	background: url(../images/all.png) -6px -943px no-repeat;
+}
+.e_scroll{
+	background: url(../images/e_topbj.png);
+}
+.e_scrollline{
+	width: 980px;
+	height: 1px;
+	_height: 1px;
+	margin: 0 auto;
+	border-top: 3px solid #968e89;
+}
+.e_scrollall1{
+	margin: 0 520px;
+	padding: 46px 100px;
+	width: 150px;
+	height: 20px;
+	background: url(../images/ehetu.png) -175px -78px no-repeat;
+}
+/*.e_scrollall1 span{
+	display: inline-block;
+	margin-left: 20px;
+	width: 20px;
+	height: 20px;
+	background: url(../images/ehetu.png) -530px -120px no-repeat;
+}*/
+.e_scroll ul li img{
+	width: 100%;
+	height: 470px;
+} 
+.e_stars{
+	width: 100%;
+	height: 1070px;
+	background: #fea60d;
+}
+.e_starscon{
+	padding-top: 43px;
+	width: 960px;
+	margin: 0 auto;
+}
+.e_starscon p{
+	text-align: center;
+	color: #fff4e9;
+}
+.e_starscon p strong{
+	font-size: 48px;
+	font-weight:  bold;
+}
+.e_starsthink{
+	padding: 39px 0 12px 0;
+}
+.e_starsmethodl{
+	display: inline-block;
+	background: url(../images/ehetu.png) -2px -501px no-repeat;
+	width: 160px;
+	height: 20px;
+}
+.e_starsmethodr{
+	display: inline-block;
+	margin-left: 16px;
+	background: url(../images/ehetu.png) 31px -501px no-repeat;
+	width: 160px;
+	height: 20px;
+}
+.e_starsscrollbtn{
+	margin: 23px 13px 0 13px;
+}
+.e_starsscrollL{
+	display: inline-block;
+	float: left;
+	width: 61px;
+	height: 61px;
+	background:url(../images/ehetu.png) -529px -341px no-repeat;
+}
+.e_starsscrollR{
+	display: inline-block;
+	float: right;
+	width: 61px;
+	height: 61px;
+	background:url(../images/ehetu.png) -523px -226px no-repeat;
+}
+.e_starscroll{
+	position: relative;
+	margin: 0 10px 0 10px;
+	overflow: hidden;
+	height: 772px;
+	width: 938px;
+}
+.e_starscroll dl{
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 297px;
+	height: 356px;
+}
+.e_starscroll dd{
+	color: #fff;
+	text-align: center;
+	margin: 24px 0 20px 0;
+	width: 297px;
+	height: 16px;
+	/*position: relative;*/
+	overflow: hidden;
+}
+.e_starscrollimg1{
+	margin: 30px 16px 0 0;
+}
+.e_starscroll dt,.e_starscroll dt img{
+	width: 297px;
+	height: 296px;
+	overflow: hidden;
+}
+.e_starscroll dd strong{
+	margin-left: 20px;
+}
+.e_zhezhao1{
+	/*display: none;*/
+	/*padding-top: 100px;*/
+	position: absolute;
+	/*z-index:1000;*/
+	top:0px;
+	left: 0px;
+	width: 297px;
+	/*height: 296px;*/
+	background: rgba(255, 255, 255, 0.28);
+}
+ .e_starscrollimg{
+	margin: 30px 0 0 0;
+}
+
+.e_guarantee{
+	width: 100%;
+	height: 1470px;
+	background: url(../images/e_beijing1.png);
+}
+.e_guaranteemethodl{
+	display: inline-block;
+	float: left;
+	width: 250px;
+	height: 18px;
+	background: url(../images/ehetu2.png) -654px -275px no-repeat;
+}
+.e_guaranteemethodr{
+	display: inline-block;
+	float: right;
+	width: 250px;
+	height: 18px;
+	background: url(../images/ehetu2.png) -654px -275px no-repeat;
+}
+.e_starscon p  i{
+	display: inline-block;
+	float: left;
+	width: 450px;
+}
+.e_starscon p i.e_i{
+	width: 317px;
+}
+.e_starscon p  i{
+	display: inline-block;
+	float: left;
+	width: 450px;
+}
+.e_starscon p  em{
+	display: inline-block;
+	float: left;
+	width: 700px;
+}
+.e_guaranteeYoushi{
+	padding: 0 10px;
+}
+.e_guaranteeYoushi li{
+	float: left;
+	padding-top: 146px;
+	width: 165px;
+	height: 200px;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	color: #fff;
+}
+.e_guaranteeYoushi li:hover{
+	filter:alpha(opacity=100);opacity:1;
+}
+.e_guaranteeYoushi11{
+	background: url(../images/ehetu2.png) 25px 0 no-repeat;
+}
+.e_guaranteeYoushi12{
+	background: url(../images/ehetu2.png) -143px 0 no-repeat;
+}
+.e_guaranteeYoushi13{
+	background: url(../images/ehetu2.png) -327px 0 no-repeat;
+}
+.e_guaranteeYoushi14{
+	background: url(../images/ehetu2.png) -503px 0 no-repeat;
+}
+.e_guaranteeYoushi li h1{
+	margin-bottom: 35px;
+	font-size: 24px;
+	text-align: center;
+}
+.e_guaranteeYoushi li span{
+	display: block;
+	width: 165px;
+	height: 16px;
+	padding-bottom: 10px;
+}
+.e_guaranteeYoushi li p{
+	margin-bottom: 10px;
+	width: 165px;
+	height: 48px;
+	overflow: hidden;
+	line-height: 24px;
+	text-align: left;
+}
+.e_guaranteeYoushi1{
+	margin-right: 93px;
+}
+.e_guaranteePeo{
+	padding: 0 10px;
+}
+.e_guaranteePeo ul{
+	margin-bottom:15px;
+}
+.e_guaranteePeo ul li{
+	float: left;
+	padding: 0 51px 0 0;
+	width: 105px;
+	color: #fff;
+}
+.e_guaranteeThings{
+	padding: 0 10px;
+	width: 980px;
+	height: 510px;
+	background: url(../images/e_gongque.png) no-repeat;
+	color: #fff;
+}
+.e_guaranteeThingsL{
+	float: left;
+	margin-top: 90px;
+	width: 163px;
+	height: 153px;
+	overflow: hidden;
+}
+.e_guaranteeThingsL li{
+	width: 163px;
+	line-height: 25px;
+	font-size: 16px;
+}
+.e_guaranteeThingsL strong{
+	font-size: 24px;
+}
+.e_guaranteeThingsR{
+	float: right;
+	margin: 26px 20px 0 0;
+}
+.e_course{
+	width: 100%;
+	height: 1010px;
+	background: #a7bd11;
+}
+.e_coursemethodl{
+	display: inline-block;
+	background: url(../images/ehetu.png) 7px -559px no-repeat;
+	width: 160px;
+	height: 20px;
+}
+.e_coursemethodr{
+	display: inline-block;
+	margin-left: 16px;
+	background: url(../images/ehetu.png) 21px -558px no-repeat;
+	width: 160px;
+	height: 20px;
+}
+.e_courseimg{
+	position: relative;
+	margin: 43px 90px 68px 90px;
+	width: 800px;
+	height: 473px;
+	overflow: hidden;
+}
+.chaofan{
+	width: 800px;
+	height: 473px;
+	opacity: 0.2;
+}
+.chaofan2{
+	left: 399px;
+}
+.e_courseimg div{
+	position: absolute;
+	top: 0;
+	float: left;
+	width: 400px;
+}
+.e_courseQuestion{
+	margin: 43px 90px 0 90px;
+}
+.e_courseQuestion a{
+	display: inline-block;
+	float: left;
+	/*margin: 0 155px 30px 0;*/
+	/*padding:15px 0 0  79px;*/
+	margin: 0 155px 30px 0;
+	/*width: 156px;*/
+	width: 200px;
+	/*height: 52px;*/
+	height: 62px;
+	/*background: url(../images/ehetu2.png) -0px -864px no-repeat;*/
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.e_courseQuestion a span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	display: inline-block;
+	width: 80px;
+	height:124px;
+	background: url(../images/ehetu2.png) -0px -864px no-repeat;
+}
+.e_courseQuestion a i{
+	float: right;
+	display: inline-block;
+	height: 24px;
+	padding-top: 20px;
+    width: 120px;
+}
+/*.e_courseQuestion a:hover{
+	background: url(../images/ehetu2.png) -0px -800px no-repeat;
+}*/
+/*.e_courseQuestion a span:hover{
+	top:-50px;
+}*/
+.e_proShow{
+	width: 100%;
+	height: 1376px;
+	background: #eb5e44;
+}
+.e_starsthink1 {
+	padding: 0 0 12px 0;
+}
+.e_proShowmethodl{
+	display: inline-block;
+	background: url(../images/ehetu.png) -10px -453px no-repeat;
+	width: 160px;
+	height: 20px;
+}
+.e_proShowmethodr{
+	display: inline-block;
+	margin-left: 16px;
+	background: url(../images/ehetu.png) 32px -453px no-repeat;
+	width: 160px;
+	height: 20px;
+}
+.e_proShowscrollimg{
+	float: left;
+	margin:32px 31px 35px;
+	width: 170px;
+	height: 238px;
+}
+.e_proShowscroll dt,.e_proShowscroll dt img{
+	width: 174px;
+	height: 190px;
+	overflow: hidden;
+}
+.e_proShowscroll dt{
+	position: relative;
+}
+.e_proShowscrollimg1{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.e_proShowscrollimg2{
+	position: absolute;
+	left: 0;
+	top: 189px;
+}
+.e_proShowscroll dt:hover{
+	filter:alpha(opacity=80);opacity:0.8;
+}
+.e_proShowscroll dd{
+	margin:10px 0;
+	width: 170px;
+	_width: 175px;
+	height: 16px;
+	color: #fff;
+	text-align: center;
+}
+.e_proShowscroll dd strong{
+	padding: 0 5px;
+}
+.e_proShowmethodl1 {
+	display: inline-block;
+	float: left;
+	background: url(../images/ehetu.png) 16px -393px no-repeat;
+	width: 320px;
+	height: 30px;
+}
+.e_proShowmethodr1 {
+	display: inline-block;
+	float: right;
+	background: url(../images/ehetu.png) -5px -393px no-repeat;
+	width: 320px;
+	height: 30px;
+}
+.e_proShowmethod{
+	font-size: 48px;
+	font-weight: bold;
+}
+.e_teacher{
+	width: 100%;
+	height: 900px;
+	background: #312e2e;
+}
+.e_teachermethodl {
+	display: inline-block;
+	float: left;
+	background: url(../images/ehetu.png) 0px -345px no-repeat;
+	width: 130px;
+	height: 20px;
+}
+.e_teachermethodr {
+	display: inline-block;
+	float: right;
+	background: url(../images/ehetu.png) 43px -345px no-repeat;
+	width: 130px;
+	height: 20px;
+}
+.e_teacherIntro{
+	margin:45px 0 0 50px;
+	color: #e1e0e0;
+}
+.e_teacherIntro dl dt{
+	float: left;
+	padding-top: 13px;
+	width: 263px;
+	height: 458px;
+	overflow: hidden;
+}
+/*.e_teacherIntro dl dt img{
+	width: 263px;
+	height: 460px;
+}*/
+.e_teacherIntro  dl dd{
+	float: left;
+	width: 634px;
+	height: 470px;
+}
+.e_teacherjob{
+	background:url(../images/e_time.png) no-repeat  ;
+	padding: 47px 0 0 124px;
+	_padding: 47px 0 0 121px;
+	margin-left: 20px;
+	width: 506px;
+	height: 336px;
+	overflow: hidden;
+
+}
+.e_teacherimg{
+	height: 157px;
+	background: #343131;
+}
+.e_teacherimg li{
+	float: left;
+	margin: 0 29px;
+	_margin: 0 25px;
+}
+.e_teacherName ul{
+	float: left;
+	padding-left: 142px;
+	width: 260px;
+	height: 50px;
+	overflow: hidden;
+}
+.e_teacherNameTurn{
+	float: right;
+}
+.e_teacherName ul li{
+	padding: 5px 0 0;
+	width: 118px;
+	height: 21px;
+	overflow: hidden;
+}
+.e_teacherjob p{
+	padding: 0 49px 33px 0;
+	line-height: 26px;
+	text-align: left;
+	width: 458px;
+	height: 104px;
+	overflow: hidden;
+}
+.e_teacherjob a{
+	display: block;
+	color: #088be0;
+	padding-bottom: 12px;
+}
+.e_teacherjob h1{
+	margin-top: 15px;
+	padding-left: 40px;
+	background: url(../images/ehetu.png) -530px -122px no-repeat;
+	width: 78px;
+	height: 20px;
+}
+.e_teacherjob dl dt,.e_teacherjob dl dt img{
+	width: 82px;
+	height: 95px;
+}
+.e_teacherjob dl dt,.e_teacherjob dl dd{
+	float: left;
+}
+.e_teacherjob dl dd{
+	width: 80px;
+	height: 24px;
+	padding: 50px 0 0 22px;
+}
+.e_teacherjob dl{
+	float: left;
+	margin-right: 60px;
+}
+.e_teacherimg{
+	padding: 21px 190px 0 200px;
+}
+.e_teacherimgL{
+	display: inline-block;
+	float: left;
+	margin-right: 25px;
+	width: 40px;
+	height: 100px;
+	background: url(../images/ehetu.png) -314px -524px no-repeat;
+}
+.e_teacherimgR{
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	width: 40px;
+	height: 100px;
+	background: url(../images/ehetu.png) -381px -524px no-repeat;
+}
+.e_teacherimg ul{
+	float: left;
+/*	width: 825px;*/
+}
+.e_aboutUs{
+	width: 100%;
+	height: 1090px;
+	background: #2853ab;
+}
+.e_aboutUsmethodl {
+	display: inline-block;
+	float: left;
+	background: url(../images/ehetu.png) -3px -368px no-repeat;
+	width: 250px;
+	height: 18px;
+}
+.e_aboutUsmethodr {
+	display: inline-block;
+	float: right;
+	background: url(../images/ehetu.png) 56px -368px no-repeat;
+	width: 250px;
+	height: 18px;
+}
+.e_aboutUsmethod{
+	margin: 40px 0 55px;
+	font-size: 24px;
+}
+.e_guaranteemethod2{
+	margin: 40px 0 0;
+}
+.e_aboutUsimg,.e_aboutUsNews{
+	margin: 0 10px 56px;
+}
+.e_aboutUsimg ul li{
+	display: inline-block;
+	float: left;
+}
+.e_aboutUsimg ul{
+	width: 940px;
+	height: 160px;
+}
+.e_aboutUsimg ul li,.e_aboutUsimg ul li img{
+	width: 235px;
+	height:160px;
+	cursor:pointer;
+}
+.e_aboutUsimgScroll .slide { 
+	width: 3760px;
+	height: 354px;
+ }
+.e_aboutUsimgScroll .slide li {
+	float: left;
+	width: 940px;
+	height: 354px;
+}
+.e_aboutUsimgScroll,.e_aboutUsimgScroll .slide li img{
+	width: 940px;
+	height: 354px;
+	overflow: hidden;
+}
+.e_aboutUsimgScroll .mfoc_nav li img .cur{ filter:alpha(opacity=60);opacity:0.6;}
+.e_aboutUsNews1,.e_aboutUsNews3{
+	float: left;
+	width:275px; 
+	height:230px;
+	margin-right: 57px;
+}
+.e_aboutUsNews3{
+	margin-right: 0;
+}
+.e_aboutUsNewstitle{
+	margin-bottom: 33px;
+	width: 275px;
+	height: 24px;
+}
+.e_aboutUsNewstitle a{
+	font-size: 24px;
+	color: #fff;
+}
+.e_aboutUsNews11{
+	width:275px ;
+	height: 25px;
+	margin-bottom: 10px;
+}
+.e_aboutUsNews11 a{
+	display: inline-block;
+	padding: 5px 0;
+	width: 275px;
+	height: 25px;
+	background: url(../images/ehetu.png) -566px -491px no-repeat;
+	color: #fff;
+}
+.e_aboutUsNews11 a strong{
+	padding: 0 24px 0 9px;
+}
+.e_footer{
+	width: 100%;
+	height: 380px;
+	background: #1e1c1c;
+}
+.e_proShowscroll{
+	position: relative;
+	width: 934px;
+	overflow: hidden;
+	height: 625px;
+}
+.e_proShowscrollh{
+	height: 302px;
+}
+.e_proShowscrollP{
+	position: absolute;
+	left: -240px;
+	top: 0;
+	width: 1500px;
+}
+.e_proShowscrollP4{
+	position: absolute;
+	left: -300px;
+	top: 0;
+	width: 2000px;
+}
+.e_starscroll .e_zz{
+	margin: 0;
+	position: absolute;
+left: 0;
+top: 0;
+width: 297px;
+height: 297px;
+}
+.e_zz div{
+	padding:140px 0;
+	width: 296px;
+height: 297px;
+background: black;
+filter: alpha(opacity=50);
+opacity: 0.5;
+position: absolute;
+top: 300px;
+left: 0;
+	
+}
+
+.slides { margin:0px auto; height:468px; overflow:hidden;position:relative; }
+.slide-pic { width:1499px;height:468px; overflow:hidden;list-style:none;}
+.slide-pic li img { width: 1499px; height: 468px; }
+.slide-pic li { width:1499px; height: 468px; margin: 0 auto; }
+.slide-pic li.cur { display:block; }
+.slide-li{ left:45%; bottom:0px; position:absolute; }
+.slide-li a { width:10px; height:10px; color:#000; font-size:12px; display:block; }
+.slide-li a:hover { color:#F00; }
+.op li { background:#999999; filter:alpha(opacity=80);opacity:0.8; }
+.op li.cur { 
+	width: 20px;
+	height: 20px;
+	background: url(../images/ehetu3.png) -562px -91px no-repeat; }
+.slide-li li{
+	float: left;
+	margin-left: 20px;
+	width: 20px;
+	height: 20px;
+	background: url(../images/ehetu3.png) -530px -120px no-repeat;
+}
+
+/*teacherIntro修改内容*/
+	/*对css525修改、对css624删除width*/
+	.e_teacherIntro{
+		position: relative;
+		width: 910px;
+		height: 471px;
+	}
+	.b_boxOfTeacher{
+		position: absolute;
+		top: 0px;
+		left: -50px;
+		width: 50px;
+		height: 50px;
+		overflow: hidden;
+	}
+	.b_boxOfTeacher img{
+		width: 50px;
+		height: 100px;
+	}
+/*teacherimg-roll滚动显示修改内容*/
+	.e_teacherimg li{
+		width: 105px;
+	}
+	.b_rollpic_outer{
+		position: relative;
+		float: left;
+		width: 815px;
+		height: 107px;
+		overflow: hidden;
+	}
+	.b_rollpic_inner{
+		position: absolute;
+		left: -163px;
+		width: 1141px;
+		height: 107px;
+	}
+.e_blank {
+height: 52px;
+}

@@ -1,0 +1,30 @@
+a { text-decoration: none; color:#D3D2D1; }
+.dd_wrapper { width: 100%; }
+.dd_header { width: 100%; height: 114px; background: #262633; }
+.dd_active { margin: 0 auto; width: 980px; }
+.dd_activeL { float: left; width: 690px;  padding: 36px 18px 75px 0; border-right: 1px solid #dadada; }
+.dd_active_job { display: block; margin:0 0 30px 20px; padding:10px 0 0 63px; width: 130px; height: 22px; background: url(../images/d_icon.png) 0 -640px no-repeat; color: #606060; }
+.dd_active_job strong { padding: 0 10px; font: 14px '微软雅黑'}
+.dd_activeL h1{ margin-bottom: 28px; padding: 0 0 12px 10px; font: 24px '微软雅黑'; color: #3c3c3c; border-bottom: 4px solid #ffa18f; }
+.dd_activeL dl { margin:0 0 55px 10px; }
+.dd_activeL dl dt { float: left; margin-right: 24px; width: 248px; height: 126px; }
+.dd_activeL dl dt img { width: 248px; height: 126px; }
+.dd_activeL dl dd { float: left; width: 400px; height: 126px; color: #6f6f6f; }
+.dd_activeL dl dd p { width: 400px; line-height: 25px; }
+.dd_activeL dl dd p strong { margin: 0 30px; }
+.dd_active_tit { font: 18px '微软雅黑'; }
+.dd_active_con1 { height:40px; padding-bottom: 31px; font: 14px '微软雅黑'; }
+.dd_activeL dl dd a { display: block; width: 150px; height: 32px; background: url(../images/d_icon.png) 0 -1295px no-repeat; }
+.dd_activeL ul { padding: 20px 0 0 248px; border-top: 4px solid #ffa18f; }
+.dd_activeL ul li { float: left; width: 28px; height: 28px; margin: 0 10px; padding-top: 5px; background: url(../images/d_icon.png) 2px -1686px no-repeat; text-align: center; color: #fff; }
+.dd_activeL ul .dd_ac_scrollL {
+	margin-right: 0;
+	background: url(../images/d_icon.png)  0 -2378px   no-repeat; 
+}
+.dd_activeL ul .dd_ac_scrollR{
+	background: url(../images/d_icon.png) 0 -2465px no-repeat; 
+}
+.dd_active_right { float: right; width: 250px; }
+
+
+.b_footer { height: 380px; background: #000; }
